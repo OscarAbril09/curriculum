@@ -1,0 +1,25 @@
+/* boyd{
+    display: flex;
+} */
+
+.dad{
+    display: flex;
+    width: 70em;
+}
+.info{
+    width: 33.3%;
+}
+.skils{
+    width: 33.3%;
+}
+.study{
+    width: 33.3%;
+}
+.img{
+    background-image: url(../image/saitama.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 20em ;
+    border-radius: 20em;
+}

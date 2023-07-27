@@ -1,41 +1,94 @@
-/* boyd{
+body{
     display: flex;
-} */
+    justify-content: center;
+    align-items: center;
+    background-color: #ACAEAF;
+    padding: 3em;
+}
 
 .dad{
     display: flex;
     width: 60em;
-    gap: 1%;
+    background-color: #2E2D59;
+    padding: 1em 0 1em 0;
+    box-shadow: black 1em 1em 10em;
+    border-radius: 7px;
 }
 .info{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 33.3%;
+    width: 36%;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+#name{
+    font-size: 24px;
+    text-align: center;
+    border-bottom: whitesmoke solid 2px;
+    width: 80%;
+    margin-bottom: 0PX;
+}
+.contacto{
+    margin-top: -1em;
+}
+a{
+    text-decoration: none;
+    color: #D07370;
 }
 #info{
     text-align: center;
 }
 .skils{
-    width: 33.3%;
+    width: 34%;
+    background-color: #EBF1FF;
+    border-right: dotted  #2E2D59 2px;
+    padding-right: 1em;
+}
+.ul{
+    margin-left: 2.5em;
 }
 .study{
-    width: 33.3%;
+    width: 30%;
+    background-color: #EBF1FF;
+    padding: 6.5em 0 0 1.5em;
+}
+.idiomas{
+    margin-left: 4em;
 }
 .img{
     background-image: url(../image/saitama.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 80%;
-    height: 18em ;
+    height: 15em ;
     border-radius: 20em;
+    border: dotted 2px white;
 }
 h3{
     text-align: center;
     font-size: 24px;
-    text-decoration: underline;
+    background-color: #36C8D9;
 }
 p{
     margin-top: 5px;
     margin-bottom: 5px;
+    font-size: 18px;
+}
+.w-100{
+    width: 95%;
+}
+.w-80{
+    width: 84%;
+    margin-right: 2em;
+    margin-top: 0px;
+}
+.m-1{
+    margin-left: 5px;
+}
+.mt-0{
+    margin-top: -0.7em;
+}
+li{
+    font-size: 18px;
 }

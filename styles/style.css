@@ -65,6 +65,20 @@ a{
     border-radius: 20em;
     border: dotted 2px white;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2%;
+    margin: 1em 1em 0 0;
+    border-top: 2px dotted #2E2D59;
+    padding-top: 1em;
+    justify-items: center;
+}
+.item5{
+    grid-area: 3 / 1 / 4 / 3;
+    justify-self: center;
+}
 h3{
     text-align: center;
     font-size: 24px;
